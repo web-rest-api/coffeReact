@@ -33,8 +33,9 @@
 	text-transform: none;
 	text-decoration: none;
 	text-transform: uppercase;
+	color: inherit;
 }
 
-.header a.active{
-    text-decoration: underline;
+.header a.active {
+	text-decoration: underline;
 }
