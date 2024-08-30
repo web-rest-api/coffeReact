@@ -1,0 +1,40 @@
+.header {
+	margin: auto;
+	max-width: 1240px;
+	padding: 20px;
+}
+
+.header .header__navBar {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+}
+
+.header .header__navBar__links {
+	display: flex;
+	gap: 10px;
+}
+
+.header img {
+	max-width: 144px;
+}
+
+.header .header__logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-color: var(--prim-clr);
+}
+
+.header a {
+	font-size: 12px;
+	text-transform: none;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.header a.active{
+    text-decoration: underline;
+}

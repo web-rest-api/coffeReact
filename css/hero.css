@@ -1,0 +1,27 @@
+.hero {
+	background-image: url("../assets/coffee02.webp");
+	background-size: cover;
+	background-position: center;
+	height: 111px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.hero::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	inset: 0;
+	background-color: black;
+	opacity: 0.6;
+}
+
+.hero h1 {
+	max-width: 190px;
+	font-weight: bold;
+	color: white;
+	margin-left: 1em;
+	position: relative;
+}
