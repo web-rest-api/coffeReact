@@ -2,10 +2,13 @@
 	background-image: url("../assets/coffee02.webp");
 	background-size: cover;
 	background-position: center;
-	height: 111px;
 	display: flex;
 	align-items: center;
 	position: relative;
+	max-width: 1240px;
+	max-height: 223px;
+	margin: auto;
+	aspect-ratio: 16/5;
 }
 
 .hero::before {
@@ -24,4 +27,16 @@
 	color: white;
 	margin-left: 1em;
 	position: relative;
+}
+
+@media only screen and (min-width: 767px) {
+	.hero {
+		aspect-ratio: 16/3;
+		justify-content: center;
+	}
+
+	.hero h1 {
+		max-width: 1200px;
+		font-size: 48px;
+	}
 }
