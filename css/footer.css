@@ -3,7 +3,7 @@
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	height: 109px;
+	height: 210px;
 	justify-content: flex-end;
 	margin-top: 1em;
 	width: 100%;
@@ -17,4 +17,8 @@
 .footer img {
 	width: 100%;
 	max-width: 122px;
+}
+
+.footer p {
+	color: var(--second-clr);
 }
