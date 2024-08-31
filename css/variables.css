@@ -1,4 +1,6 @@
-:root{
-    --prim-clr: #68544F;
-    --font-clr: #251E1C;
+:root {
+	--prim-clr: #68544f;
+	--font-clr: #251e1c;
+	--second-font-clr: #f6f6f6;
+	--second-clr: #ecd4ce;
 }

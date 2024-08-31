@@ -1,0 +1,61 @@
+.main_section {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 12px;
+	justify-content: space-around;
+	margin: auto;
+	max-width: 1200px;
+}
+
+.main_section a {
+	max-width: 340px;
+	min-width: 320px;
+	width: 100%;
+}
+
+.main_section .card {
+	background-color: var(--second-clr);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 4px;
+	margin-top: 22px;
+	min-height: 255px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image: url("../assets/coffee01.webp");
+}
+
+.main_section .card h3 {
+	bottom: 15px;
+	font-size: 18px;
+	font-weight: 400;
+	left: 18px;
+	max-width: 90%;
+	position: absolute;
+	z-index: 1;
+	color: var(--second-font-clr);
+}
+
+.main_section .card:after {
+	background: #fcfcfc;
+	background: linear-gradient(180deg, hsla(0, 0%, 99%, 0), #000);
+	content: "";
+	height: 100%;
+	mix-blend-mode: darken;
+	opacity: 0.6;
+	position: absolute;
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+	.main_section {
+		background-color: #f6f6f6;
+		flex-direction: row;
+		margin-bottom: 70px;
+		padding: 49px 56px;
+	}
+}
